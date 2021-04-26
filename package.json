@@ -1,14 +1,14 @@
 {
-  "name": "@pancakeswap/pancake-swap-lib",
-  "version": "0.0.4",
-  "description": "Pancake Swap Lib",
+  "name": "@oni-exchange/onilib",
+  "version": "0.0.1",
+  "description": "Oni Exchange Library",
   "files": [
     "contracts",
     "!contracts/test"
   ],
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com:pancakeswap/pancake-swap-lib.git"
+    "url": "ssh://git@github.com:oni-exchange/onilib.git"
   },
   "publishConfig": {
     "registry": "http://registry.npmjs.org"
