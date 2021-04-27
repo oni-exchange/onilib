@@ -2,7 +2,7 @@
 
 pragma solidity >=0.4.0;
 
-import '../math/SafeMath.sol';
+import '../math/MathUtil.sol';
 
 // a library for handling binary fixed point numbers (https://en.wikipedia.org/wiki/Q_(number_format))
 library FixedPoint {
@@ -71,6 +71,6 @@ library FixedPoint {
 
     // square root of a UQ112x112
     function sqrt(uq112x112 memory self) internal pure returns (uq112x112 memory) {
-        return uq112x112(uint224(SafeMath.sqrt(uint256(self._x)) << 56));
+        return uq112x112(uint224(MathUtil.sqrt(uint256(self._x)) << 56));
     }
 }
