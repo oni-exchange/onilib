@@ -2,7 +2,8 @@
 
 pragma solidity >=0.4.0;
 
-import '../GSN/Context.sol';
+import '@openzeppelin/contracts/utils/Context.sol';
+
 
 /**
  * @dev Contract module which provides a basic access control mechanism, where

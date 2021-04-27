@@ -2,8 +2,9 @@
 
 pragma solidity ^0.6.0;
 
-import "./Proxy.sol";
 import "@openzeppelin/contracts/utils/Address.sol";
+
+import "./Proxy.sol";
 
 /**
  * @dev This contract implements an upgradeable proxy. It is upgradeable because calls are delegated to an

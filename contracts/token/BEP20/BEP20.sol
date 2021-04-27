@@ -4,9 +4,8 @@ pragma solidity >=0.4.0;
 
 import "@openzeppelin/contracts/math/SafeMath.sol";
 import "@openzeppelin/contracts/utils/Address.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
 
-import '../../access/Ownable.sol';
-import '../../GSN/Context.sol';
 import './IBEP20.sol';
 
 
